@@ -1,5 +1,4 @@
 
-
 import java.util.*;
 import java.io.File;
 import java.io.IOException;
@@ -64,7 +63,7 @@ public class VirtualRepository {
         case 1 : System.out.println("Enter the name of the file : ");
                  Scanner sc2=new Scanner(System.in);
                  String new_file=sc2.next();
-                 File f = new File("C:\\Users\\KOPPURAVURI\\Desktop\\Simplilearn Phase-1 Project\\VirtualRepository\\Phase-1 Project\\main",new_file);
+                 File f = new File("C:\\Users\\KOPPURAVURI\\Desktop\\Simplilearn Phase-1 Project\\VirtualRepository\\Phase-1 Project\\main,new_file);
                  try{f.createNewFile();}
                  catch(Exception e)  
                  {  
@@ -95,7 +94,10 @@ public class VirtualRepository {
                 		else{System.out.println("File not found");
                 		}
                 		}
-                	      catch(NoSuchFileException e) 
+                	
+                        	
+                        	
+                        	catch(NoSuchFileException e) 
                             { 
                                 System.out.println("No such file/directory exists"); 
                             } 
@@ -105,8 +107,8 @@ public class VirtualRepository {
                                System.out.println("File Not Found"); 
                             } 
                 	         
-       	          options();
-                  loop();
+       	        options();
+                loop();
                   break;
          case 3 : System.out.println("Enter the name of the file : ");
                  Scanner sc4=new Scanner(System.in);
