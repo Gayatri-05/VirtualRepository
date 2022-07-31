@@ -63,7 +63,7 @@ public class VirtualRepository {
         case 1 : System.out.println("Enter the name of the file : ");
                  Scanner sc2=new Scanner(System.in);
                  String new_file=sc2.next();
-                 File f = new File("C:\\Users\\KOPPURAVURI\\Desktop\\Simplilearn Phase-1 Project\\VirtualRepository\\Phase-1 Project\\main,new_file);
+                 File f = new File("C:\\Users\\KOPPURAVURI\\Desktop\\Simplilearn Phase-1 Project\\VirtualRepository\\Phase-1 Project\\main",new_file);
                  try{f.createNewFile();}
                  catch(Exception e)  
                  {  
